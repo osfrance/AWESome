@@ -194,6 +194,15 @@
 			<Korean>ft, fpm</Korean>
 		</Key>
 
+		<Key ID="STR_orbis_atc_classifyAsNeutral_name">
+			<English>Classify as neutral</English>
+			<Korean>Classify as neutral</Korean>
+		</Key>
+		<Key ID="STR_orbis_atc_classifyAsNeutral_tooltip">
+			<English>Classify as neutral when clicking on marker with key pressed</English>
+			<Korean>Classify as neutral when clicking on marker with key pressed</Korean>
+		</Key>
+
 		<Key ID="STR_orbis_atc_classifyAsHostile_name">
 			<English>Classify as hostile</English>
 			<Korean>Classify as hostile</Korean>
