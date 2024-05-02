@@ -34,6 +34,10 @@ if (missionNameSpace getVariable [QGVAR(classifyAsHostile), false]) exitWith {
 	[_vehicle, side _controller] call FUNC(classifyAsHostile);
 };
 
+if (missionNameSpace getVariable [QGVAR(classifyAsNeutral), false]) exitWith {
+	[_vehicle, side _controller] call FUNC(classifyAsNeutral);
+};
+
 if (_vehicle getVariable [QGVAR(selectedGCI), false]) exitWith {
 	_vehicle setVariable [QGVAR(selectedGCI), false];
 };
