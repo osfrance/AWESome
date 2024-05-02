@@ -103,13 +103,6 @@ ADDON = true;
 	}, {
 	    missionNameSpace setVariable [QGVAR(classifyAsHostile), false];
 	},
-	[0, [false, false, false]],
-	[localize LSTRING(classifyAsNeutral_name), localize LSTRING(classifyAsNeutral_tooltip)],
-	{
-	    missionNameSpace setVariable [QGVAR(classifyAsNeutral), true];
-	}, {
-	    missionNameSpace setVariable [QGVAR(classifyAsNeutral), false];
-	},
 	[0, [false, false, false]]
 ] call CBA_fnc_addKeybind;
 

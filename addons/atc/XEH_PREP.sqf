@@ -4,7 +4,6 @@ PREP(addRadarScreen);
 PREP(atcRadarExit);
 PREP(atcRadarLoop);
 PREP(classifyAsHostile);
-PREP(classifyAsNeutral);
 PREP(createAntiAirMarker);
 PREP(createLineGCI);
 PREP(createMarkerGCI);
